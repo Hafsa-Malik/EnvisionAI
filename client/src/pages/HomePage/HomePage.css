@@ -1,0 +1,488 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-image: url("../../images/hp_bg.png");
+  background-size: auto 100%;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.hm_logo {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  height: 60px;
+  width: auto;
+}
+
+nav {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ddd4d4c7;
+  padding-right: 15px;
+}
+
+.active {
+  color: white;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.text {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  width: 40%;
+  padding: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.text span:first-of-type {
+  color: #a04be4;
+}
+
+.text span:last-of-type {
+  color: #05ddfb;
+}
+
+.text p {
+  width: 85%;
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 34px;
+}
+
+.chatbot-l1 {
+  background-color: #43dec2;
+  border-radius: 33px;
+  padding: 9px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.ship-model {
+  width: 40%;
+  position: absolute;
+  right: 20px;
+  top: 390px;
+}
+
+.ship-model img {
+  max-width: 100%;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/**********************
+  Features Section CSS
+  **********************/
+.features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  opacity: 0;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.feature-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.circle-border img {
+  border-radius: 50%;
+}
+
+.feature h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #ddd4d494;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateX(-20px) translateZ(0);
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateX(0) translateZ(0);
+  }
+}
+
+/**********************
+  Freeware Section CSS
+  **********************/
+.freeware-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 50px;
+  background-image: url("../../images/bg_star2.jpg");
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.line-gradient {
+  margin-left: 99px;
+  width: 3.5px;
+  border-radius: 50px;
+}
+
+.g1 {
+  height: 100px;
+  background-image: linear-gradient(to bottom, #ffffff, #6ef659);
+}
+
+.g2 {
+  height: 280px;
+  background-image: linear-gradient(to bottom, #6ef659, #000000);
+}
+
+.g3 {
+  height: 150px;
+  background-image: linear-gradient(to bottom, #000000, #6ef659, #b028d2);
+}
+
+.g4 {
+  height: 280px;
+  background-image: linear-gradient(to bottom, #b028d2, #000000);
+}
+
+.g5 {
+  height: 100px;
+  background-image: linear-gradient(to bottom, #000000, #b028d2, #ffffff);
+}
+
+.icon {
+  margin-left: 90px;
+  background-color: transparent;
+  color: white;
+  width: 23px;
+  height: auto;
+}
+
+.freeware {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  opacity: 0;
+}
+
+.i1 {
+  border-radius: 30%;
+  box-shadow: 0px 0px 45px 7px #6ef659;
+}
+
+.i2 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 9px #b028d2;
+}
+
+.iconName {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.freeware-explanation {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.detail {
+  margin: 0 45px;
+  font-size: 40px;
+  width: 70%;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.freeware-explanation span {
+  color: #a2ff93;
+}
+
+.freeware-explanation .span2 {
+  color: #e88aff;
+}
+
+.freeware-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tool-section {
+  background-color: #161b22;
+  border: solid 1px rgb(50, 49, 49);
+  border-radius: 20px;
+  width: 45%;
+  margin: 0 16px;
+}
+
+.tool-section p {
+  color: #767d85;
+  font-weight: 600;
+  font-size: 21px;
+  padding: 50px 50px 10px 50px;
+}
+
+.tool-section span,
+.openAI-content span {
+  color: white;
+}
+
+.tool-section img {
+  width: 93%;
+  margin: 80px 0px -4px 45px;
+  border-bottom-right-radius: 25px;
+  border: solid 1px rgb(50, 49, 49);
+}
+
+.tool-section a,
+.openAI-content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 50px;
+}
+
+.openAI-content a {
+  margin: 20px 0px;
+}
+
+.go-icon {
+  color: white;
+  width: 20px;
+  height: auto;
+  padding-top: 30px;
+}
+
+.tool-section:nth-of-type(2) img {
+  width: 93%;
+  height: auto;
+  margin: 40px 0px -2.5px 45px;
+  border: none;
+}
+
+.openAI-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #161b22;
+  border: solid 1px rgb(50, 49, 49);
+  border-radius: 20px;
+  margin: 0 50px;
+  width: 92.5%;
+}
+
+.openAI-section img {
+  width: 50%;
+  height: 350px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.openAI-content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 140px 50px 40px;
+  color: #767d85;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/************************
+  Technologies CSS
+  ************************/
+.technology-container {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.technology-container p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.tech-icon {
+  width: 60px;
+  height: auto;
+  margin: 20px 50px 0px 30px;
+  color: #ffffffc7;
+}
+
+.leo-icon {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  margin: 20px 50px 0px 30px;
+}
+
+.blockade {
+  border-radius: 0;
+  filter: grayscale(80%) brightness(70%) contrast(100%);
+}
+
+.animate1 {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/***********************
+  Feedback Section CSS
+  ***********************/
+
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #04070e;
+  padding-top: 100px;
+  margin-top: 150px;
+  background-image: url("../../images/bg_star2.jpg");
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.feedback-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.earth-container {
+  margin-right: 50px;
+}
+
+.earth-container img {
+  border-radius: 50%;
+  height: 600px;
+  width: auto;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  background-color: #161b22;
+  border: none;
+  margin: 10px;
+  color: #d6dde4;
+  border-radius: 15px;
+  padding: 10px 14px;
+  width: 430px;
+  font-size: 18px;
+  border: solid 1px rgba(50, 49, 49, 0.762);
+}
+
+.feedback-form textarea {
+  resize: none;
+  border-radius: 13px;
+}
+
+.submit-button {
+  border-radius: 33px;
+  width: 425px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #2fcaec;
+  color: #000000a6;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  color: #fffdfd71;
+}
