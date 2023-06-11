@@ -29,11 +29,14 @@ You can customize the `max_tokens` and `temperature` values in the `server/index
 
 ## Screenshots
 
-![lp](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/cc3af95b-f173-4f70-85fb-8d31faf31b44)
+![lp](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/cdfe23ca-76b6-42dd-b8c8-4da34413b98b)
 
-![hp](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/863d41ba-80f4-4bee-a83a-856a611fdd0b)
 
-![cb](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/73cb585e-dd49-422b-afdd-4102318e14fd)
+![hp](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/afd436cf-84d2-409a-8726-15ca03e6cd2d)
+
+
+![cb](https://github.com/Hafsa-Malik/EnvisionAI/assets/76608263/272f0f81-0934-43da-9bad-24b2a297ee55)
+
 
 
 ## License
